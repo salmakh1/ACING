@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9da284f2-3165-41e5-98b7-1d81e6cbc6e1" name="ibex">
+        <fileTransfer rootFolder="/home/kharras" accessType="SFTP" host="glogin.ibex.kaust.edu.sa" port="22" sshConfigId="566b649e-1150-4fdf-bfb4-650633498d3f" sshConfig="kharras@glogin.ibex.kaust.edu.sa:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="32effb98-dce2-4790-a673-54fa5d152bbf" name="ibex_fares">
+        <fileTransfer rootFolder="/home/fouratf" accessType="SFTP" host="glogin.ibex.kaust.edu.sa" port="22" sshConfigId="f6ab477a-78b0-4c24-81e7-eac4a5058e41" sshConfig="fouratf@glogin.ibex.kaust.edu.sa:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5517c7a2-4b9c-47bc-9952-cfde994007c0" name="VM">
+        <fileTransfer rootFolder="/home/kharras" accessType="SFTP" host="gcp-vm-1" port="22" sshConfigId="cd69c447-760f-4f78-b25d-172f3a00e34f" sshConfig="kharras@gcp-vm-1:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
