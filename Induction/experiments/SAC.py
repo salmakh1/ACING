@@ -54,8 +54,6 @@ class QNetwork(nn.Module):
 
 class SACAgent:
     def __init__(self, alpha=0.99, dim=10, llm=None, seed=0):
-        # torch.cuda.manual_seed((seed+1)*55)
-        # torch.cuda.manual_seed_all((seed+1)*55)
         print("Dimension is ", dim)
         self.policy_net = PolicyNetwork(dim).to(device)
         self.q_net1 = QNetwork(dim).to(device)
