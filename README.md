@@ -19,7 +19,7 @@ ACING leverages an actor-critic-based method to optimize prompts, learning from 
 # ACING Pipeline
 In each iteration, a soft prompt along with several examples of the target task are provided to the white-box LLM to generate an instruction. This instruction is then used to query the black-box LLM, which produces answers to the target task queries. The resulting score is returned to the agent as a reward, which is used to update its networks and adjust its policy. Both LLMs remain frozen throughout the process.
 
-<img src="ACING_pipeline.png" width="1000" height="200" />
+<img src="ACING_pipeline.png" width="500" height="200" />
 
 
 # Run ACING
