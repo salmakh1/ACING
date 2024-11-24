@@ -50,7 +50,6 @@ class LMForwardAPI:
     def __init__(self, model_name='vicuna', eval_data=None, init_prompt=None, init_qa=None, conf=None, base_conf=None,
                  prompt_gen_data=None, n_prompt_tokens=None, few_shot_data=None,
                  HF_cache_dir=None, random_proj=None, intrinsic_dim=None):
-        print("HEEEEREEEEEE")
         p = torch.ones(10)
 
         torch.cuda.empty_cache()
